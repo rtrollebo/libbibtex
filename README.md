@@ -8,7 +8,15 @@ Library and command line program for parsing bibtex files. Implemented in Haskel
 
 `bibtex <filename>`
 
-Example: `bibtex test.bib`
+Example: 
+`./bibtex test.bib`
+
+Output
+
+    ID                Type    Year    Authors           Title
+    idbook0001        B       2020    Author1           Title of book (example descrip
+    idarticle0001     A       2020    Author2 et.al     Title of article (example desc
+    idreport0001      R       2020    Author3           Title of report (example descr
 
 # Features
 

@@ -7,7 +7,7 @@ This file serves as information on the exposed module functions and types from B
 -}
 
 
--- Data types
+
 
 -- Field types
 newtype Author = Author String deriving (Show)
@@ -23,7 +23,7 @@ data Publication =
     | Book Id Author Authors Title Year
     | Report Id Author Authors Title Year deriving (Show)
 
--- Module functions
+-- Exposed module functions
 
 -- Read bibtex based on filename
 readBibtex :: String -> IO ()
